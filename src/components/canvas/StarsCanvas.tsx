@@ -1,11 +1,12 @@
 import { Suspense, useRef } from "react";
-import { Canvas, useFrame, GroupProps } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { Stars, Preload } from "@react-three/drei";
+import { Group } from "three";
 
 import { StarsWrapper } from "../../shared/styled";
 
 const Galaxy = () => {
-  const ref = useRef<GroupProps>(null);
+  const ref = useRef<Group>(null);
 
   useFrame((_, delta) => {
     if (ref.current?.rotation) {
