@@ -36,7 +36,7 @@ import front_end from "./front-end.png";
 import back_end from "./back-end.png";
 import react_developer from "./react-dev.png";
 import graphql_dev from "./graphql_dev.png";
-import tetris from "./tetris.png";
+import tetris from "./Tetris.png";
 import pathfinder from "./pathfinder.png";
 import puzzlecam from "./puzzcam.png";
 import io_game from "./io-game.png";
