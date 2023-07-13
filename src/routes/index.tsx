@@ -5,7 +5,6 @@ import {
   Experience,
   Tech,
   Works,
-  Feedbacks,
   Contact,
 } from "../components";
 
@@ -21,7 +20,6 @@ export const IndexRoute = () => {
       <Experience />
       <Tech />
       <Works />
-      {/* <Feedbacks /> */}
       <RelativeBackground>
         <Contact />
         <StarsCanvas />
